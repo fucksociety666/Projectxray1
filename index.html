@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1">
+    <title>Project Xray</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: calc(8rem + 1vw);
+            font-weight: bold;
+            text-align: center;
+        }
+        .subtitle {
+            font-size: calc(1.2rem + 1vw);
+            margin-top: 10px;
+            text-align: center;
+        }
+        .links {
+            position: absolute;
+            bottom: 15%;
+            text-align: center;
+            font-size: calc(0.9rem + 0.5vw);
+            width: 100%;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+            display: inline-block;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            position: absolute;
+            bottom: 5%;
+            font-size: calc(0.8rem + 0.3vw);
+            text-align: center;
+            width: 100%;
+        }
+        .moving-header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            font-size: calc(1rem + 0.5vw);
+            background-color: black;
+            color: white;
+            animation: moveLeftRight 10s linear infinite;
+        }
+
+        @keyframes moveLeftRight {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: calc(6rem + 2vw);
+            }
+            .subtitle {
+                font-size: calc(1rem + 1vw);
+            }
+            .links {
+                font-size: calc(0.8rem + 0.5vw);
+            }
+            .footer {
+                font-size: calc(0.7rem + 0.4vw);
+            }
+            .moving-header {
+                font-size: calc(1rem + 0.5vw);
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: calc(4rem + 3vw);
+            }
+            .subtitle {
+                font-size: calc(0.9rem + 0.8vw);
+            }
+            .links {
+                font-size: calc(0.7rem + 0.6vw);
+            }
+            .footer {
+                font-size: calc(0.6rem + 0.5vw);
+            }
+            .moving-header {
+                font-size: calc(0.8rem + 0.5vw);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="moving-header">
+        Volume 3 coming soon
+    </div>
+    <h1>Project Xray™</h1>
+    <div class="subtitle">
+        Volume 3 coming soon. Follow our Social for updates.
+    </div>
+    <div class="links">
+        <a href="https://www.instagram.com/theprojectxray/" target="_blank">INSTAGRAM</a>
+        <a href="https://www.facebook.com/@theprojectxray" target="_blank">FACEBOOK</a>
+        <a href="https://www.tiktok.com/@theprojectxray" target="_blank">TIKTOK</a>
+        <a href="https://ph.pinterest.com/theprojectxray666/" target="_blank">PINTEREST</a>
+    </div>
+    <div class="footer">
+        Project Xray™ | All Rights Reserved | 2025
+    </div>
+</body>
+</html>
