@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-strong: Inter;
+
+  /* font sizes */
+  --body-strong-size: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-312xl: 331px;
+}
