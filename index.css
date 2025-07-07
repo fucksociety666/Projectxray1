@@ -39,17 +39,13 @@ html, body {
   z-index: 1;
 }
 
-/* Centered overlay content */
 .centered-content {
-  position: relative;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
-  height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 60px;
   text-align: center;
   color: white;
 }
@@ -65,12 +61,15 @@ html, body {
   margin-top: 10px;
   font-size: 0.9rem;
   max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   color: #ffffff;
   line-height: 1.4;
 }
 
 .shop-links {
   margin-top: 15px;
+  display: inline-block;
   border: 1px solid white;
   padding: 6px 12px;
   border-radius: 4px;
@@ -89,7 +88,7 @@ html, body {
 }
 
 .gif {
-  margin-top: 20px;
+  margin-top: 30px;
   width: 300px;
   max-width: 80%;
   height: auto;
